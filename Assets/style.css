@@ -3,6 +3,10 @@ body{
     margin: auto;
 }
 
+header>#title>h1{
+    font-family: 'Passion One', cursive;
+}
+
 nav>ul{
     list-style-type: none;
     margin: 0px;
