@@ -35,32 +35,32 @@
             <?php
                 include ("db_connection.php");
                 if($_GET['category']=="university"){
-                    $getbugs = "SELECT * FROM blogView where category like '%university%'";
-                    $result = mysqli_query($db, $getbugs);
+                    $getblogs = "SELECT * FROM blogView where category like '%university%'";
+                    $result = mysqli_query($db, $getblogs);
                     while ($row = mysqli_fetch_array($result)) {
                         echo "<h3>". $row['entryTitle'] . "by". $row['submitter'] ."</h3>";
                         echo "<h4>". $row['category'] . "</h4>";
                         echo "<p>". $row['entrySummary'] . "</p>";
                     }
                 }elseif($_GET['category']=="work"){
-                    $getbugs = "SELECT * FROM blogView where category like '%work%'";
-                    $result = mysqli_query($db, $getbugs);
+                    $getblogs = "SELECT * FROM blogView where category like '%work%'";
+                    $result = mysqli_query($db, $getblogs);
                     while ($row = mysqli_fetch_array($result)) {
                         echo "<h3>". $row['entryTitle'] . " by ". $row['submitter'] ."</h3>";
                         echo "<h4>". $row['category'] . "</h4>";
                         echo "<p>". $row['entrySummary'] . "</p>";
                     }
                 }elseif($_GET['category']=="family"){
-                    $getbugs = "SELECT * FROM blogView where category like '%family%'";
-                    $result = mysqli_query($db, $getbugs);
+                    $getblogs = "SELECT * FROM blogView where category like '%family%'";
+                    $result = mysqli_query($db, $getblogs);
                     while ($row = mysqli_fetch_array($result)) {
                         echo "<h3>". $row['entryTitle'] . " by ". $row['submitter'] ."</h3>";
                         echo "<h4>". $row['category'] . "</h4>";
                         echo "<p>". $row['entrySummary'] . "</p>";
                     }
                 }else{
-                    $getbugs = "SELECT * FROM blogView";
-                    $result = mysqli_query($db, $getbugs);
+                    $getblogs = "SELECT * FROM blogView";
+                    $result = mysqli_query($db, $getblogs);
                     while ($row = mysqli_fetch_array($result)) {
                         echo "<h3>". $row['entryTitle'] . " by ". $row['submitter'] ."</h3>";
                         echo "<h4>". $row['category'] . "</h4>";
