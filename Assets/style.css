@@ -57,6 +57,9 @@ form>label{
     float: left;
 }
 
+form>text{
+    width: 300px;
+}
 
 main{
     min-height: 600px;
