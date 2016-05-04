@@ -89,15 +89,15 @@ section>#blogitem{
     padding: 10px 10px;
     margin-top: 10px;
     margin-left: 20px;
-    border-bottom: 850px;
-    border-bottom: dotted;
-    margin-bottom: 10px;
 }
 
 section>#blogitem>p{
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 500;
     font-size: 16px;
+    border-bottom: 850px;
+    border-bottom: dotted;
+    margin-bottom: 10px;
 }
 
 section>#blogitem>h3{
