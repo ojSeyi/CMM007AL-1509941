@@ -21,9 +21,9 @@
     <nav>
         <ul>
             <li><a href="blog.php">All Blog Items</a></li>
-            <li><a href="blog.php">Work Items</a></li>
-            <li><a href="blog.php">University Items</a></li>
-            <li><a href="blog.php">Family Items</a></li>
+            <li><a href="blog.php?category=work">Work Items</a></li>
+            <li><a href="blog.php?category=university">University Items</a></li>
+            <li><a href="blog.?category=family">Family Items</a></li>
             <li><a href="add.html">Insert a Blog Item</a></li>
         </ul>
     </nav>
@@ -46,7 +46,7 @@
                     $getbugs = "SELECT * FROM blogView where category like '%work%'";
                     $result = mysqli_query($db, $getbugs);
                     while ($row = mysqli_fetch_array($result)) {
-                        echo "<h3>". $row['entryTitle'] . "by". $row['submitter'] ."</h3>";
+                        echo "<h3>". $row['entryTitle'] . " by ". $row['submitter'] ."</h3>";
                         echo "<h4>". $row['category'] . "</h4>";
                         echo "<p>". $row['entrySummary'] . "</p>";
                     }
@@ -54,7 +54,7 @@
                     $getbugs = "SELECT * FROM blogView where category like '%family%'";
                     $result = mysqli_query($db, $getbugs);
                     while ($row = mysqli_fetch_array($result)) {
-                        echo "<h3>". $row['entryTitle'] . "by". $row['submitter'] ."</h3>";
+                        echo "<h3>". $row['entryTitle'] . " by ". $row['submitter'] ."</h3>";
                         echo "<h4>". $row['category'] . "</h4>";
                         echo "<p>". $row['entrySummary'] . "</p>";
                     }
@@ -62,7 +62,7 @@
                     $getbugs = "SELECT * FROM blogView";
                     $result = mysqli_query($db, $getbugs);
                     while ($row = mysqli_fetch_array($result)) {
-                        echo "<h3>". $row['entryTitle'] . "by". $row['submitter'] ."</h3>";
+                        echo "<h3>". $row['entryTitle'] . " by ". $row['submitter'] ."</h3>";
                         echo "<h4>". $row['category'] . "</h4>";
                         echo "<p>". $row['entrySummary'] . "</p>";
                  }
