@@ -8,9 +8,10 @@ header>#title>h1{
     font-size: 40pt;
     margin-bottom: 5px;
 }
-header>#title>p{
+header>#title>h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 30pt;
+    margin-top:0px;
 }
 
 nav>ul{
