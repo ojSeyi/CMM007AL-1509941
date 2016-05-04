@@ -24,7 +24,7 @@
             <li><a href="blog.php?category=work">Work Items</a></li>
             <li><a href="blog.php?category=university">University Items</a></li>
             <li><a href="blog.php?category=family">Family Items</a></li>
-            <li><a href="add.html">Insert a Blog Item</a></li>
+            <li><a href="add.php">Insert a Blog Item</a></li>
         </ul>
     </nav>
 </header>
