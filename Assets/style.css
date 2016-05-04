@@ -43,6 +43,10 @@ nav>ul>li>a:hover{
      color: deepskyblue;
 }
 
+main{
+    min-height: 600px;
+}
+
 content>p{
     magin-top: 30px;
     margin-right: 10px;
