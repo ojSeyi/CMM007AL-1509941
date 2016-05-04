@@ -32,9 +32,43 @@
 <main>
     <section>
         <div id="blogitem">
-            <h3>Bugs by Michael Bolton</h3>
-            <h4>Work </h4>
-            <p>Bug-fright is the collective name for a group of software bugs, that affect versions 2.2 and newer of the Android operating system, allowing an attacker to perform arbitrary operations on the victim device through remote code execution and privilege escalation. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae rutrum ligula, quis blandit eros. Curabitur et pulvinar felis. Duis molestie sit amet eros sit amet viverra. Aenean sed dolor eleifend, dictum ex ac, suscipit libero. Nunc sit amet lectus non elit dictum dictum.</p>
+            <?php
+                include ("db_connection.php");
+                if($_GET['category']=="university"){
+                    $getbugs = "SELECT * FROM blogView where category like '%university%'";
+                    $result = mysqli_query($db, $getbugs);
+                    while ($row = mysqli_fetch_array($result)) {
+                        echo "<h3>". $row['entryTitle'] . "by". $row['submitter'] ."</h3>";
+                        echo "<h5>". $row['category'] . "</h5>";
+                        echo "<p>". $row['entrySummary'] . "</p>";
+                    }
+                }elseif($_GET['category']=="work"){
+                    $getbugs = "SELECT * FROM blogView where category like '%work%'";
+                    $result = mysqli_query($db, $getbugs);
+                    while ($row = mysqli_fetch_array($result)) {
+                        echo "<h3>". $row['entryTitle'] . "by". $row['submitter'] ."</h3>";
+                        echo "<h5>". $row['category'] . "</h5>";
+                        echo "<p>". $row['entrySummary'] . "</p>";
+                    }
+                }elseif($_GET['category']=="family"){
+                    $getbugs = "SELECT * FROM blogView where category like '%family%'";
+                    $result = mysqli_query($db, $getbugs);
+                    while ($row = mysqli_fetch_array($result)) {
+                        echo "<h3>". $row['entryTitle'] . "by". $row['submitter'] ."</h3>";
+                        echo "<h5>". $row['category'] . "</h5>";
+                        echo "<p>". $row['entrySummary'] . "</p>";
+                    }
+                }else{
+                    $getbugs = "SELECT * FROM blogView";
+                    $result = mysqli_query($db, $getbugs);
+                    while ($row = mysqli_fetch_array($result)) {
+                        echo "<h3>". $row['entryTitle'] . "by". $row['submitter'] ."</h3>";
+                        echo "<h5>". $row['category'] . "</h5>";
+                        echo "<p>". $row['entrySummary'] . "</p>";
+                 }
+             }
+            ?>
+
         </div>
     </section>
 
