@@ -43,6 +43,16 @@ nav>ul>li>a:hover{
      color: deepskyblue;
 }
 
+form{
+     margin: auto;
+}
+form>label{
+    display: block;
+    width: 100px;
+    float: left;
+}
+
+
 main{
     min-height: 600px;
 }
