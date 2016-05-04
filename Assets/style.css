@@ -80,22 +80,25 @@ content>#home>p{
     margin-right: 10px;
 }
 
-#blogitem{
-    width: 576px;
+content>#blogitem{
+    width: 700px;
     display: block;
     padding: 10px 10px;
+    margin-top: 60px;
+    margin-left: 40px;
 }
 
-#blogitem>p{
+content>#blogitem>p{
     border-bottom: 1px solid black;
+    margin-left: 40px;
 }
 
-#blogitem>h3{
-    margin-top: 40px;
-    margin-bottom: 10px;
+content>#blogitem>h3{
+    margin-top: 60px;
+    margin-left: 40px;
 }
-#blogitem>h5{
-    margin-bottom: 10px;
+content>#blogitem>h4{
+    margin-left: 40px;
 }
 
 #sitelogo{
