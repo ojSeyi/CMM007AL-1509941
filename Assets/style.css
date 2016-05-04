@@ -67,8 +67,8 @@ select{
 }
 
 input[type=submit] {
-    width: 150px;
-    align: right;
+    width: 100px;
+    margin-left: 350px;
 }
 
 main{
