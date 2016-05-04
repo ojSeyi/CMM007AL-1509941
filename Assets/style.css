@@ -66,6 +66,11 @@ select{
     width: 300px;
 }
 
+button{
+    width: 150px;
+    align: right;
+}
+
 main{
     min-height: 600px;
 }
