@@ -80,25 +80,23 @@ content>#home>p{
     margin-right: 10px;
 }
 
-content>#blogitem{
-    width: 700px;
+section>#blogitem{
+    width: 800px;
     display: block;
     padding: 10px 10px;
     margin-top: 60px;
     margin-left: 40px;
 }
 
-content>#blogitem>p{
+section>#blogitem>p{
     border-bottom: 1px solid black;
-    margin-left: 40px;
 }
 
-content>#blogitem>h3{
-    margin-top: 60px;
-    margin-left: 40px;
+section>#blogitem>h3{
+
 }
-content>#blogitem>h4{
-    margin-left: 40px;
+section>#blogitem>h4{
+
 }
 
 #sitelogo{
