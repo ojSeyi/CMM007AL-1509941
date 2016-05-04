@@ -20,10 +20,10 @@
     </div>
     <nav>
         <ul>
-            <li><a href="blog.html">All Blog Items</a></li>
-            <li><a href="blog.html">Work Items</a></li>
-            <li><a href="blog.html">University Items</a></li>
-            <li><a href="blog.html">Family Items</a></li>
+            <li><a href="blog.php">All Blog Items</a></li>
+            <li><a href="blog.php">Work Items</a></li>
+            <li><a href="blog.php">University Items</a></li>
+            <li><a href="blog.php">Family Items</a></li>
             <li><a href="add.html">Insert a Blog Item</a></li>
         </ul>
     </nav>
