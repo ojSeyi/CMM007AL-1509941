@@ -39,7 +39,7 @@
                     $result = mysqli_query($db, $getbugs);
                     while ($row = mysqli_fetch_array($result)) {
                         echo "<h3>". $row['entryTitle'] . "by". $row['submitter'] ."</h3>";
-                        echo "<h5>". $row['category'] . "</h5>";
+                        echo "<h4>". $row['category'] . "</h4>";
                         echo "<p>". $row['entrySummary'] . "</p>";
                     }
                 }elseif($_GET['category']=="work"){
@@ -47,7 +47,7 @@
                     $result = mysqli_query($db, $getbugs);
                     while ($row = mysqli_fetch_array($result)) {
                         echo "<h3>". $row['entryTitle'] . "by". $row['submitter'] ."</h3>";
-                        echo "<h5>". $row['category'] . "</h5>";
+                        echo "<h4>". $row['category'] . "</h4>";
                         echo "<p>". $row['entrySummary'] . "</p>";
                     }
                 }elseif($_GET['category']=="family"){
@@ -55,7 +55,7 @@
                     $result = mysqli_query($db, $getbugs);
                     while ($row = mysqli_fetch_array($result)) {
                         echo "<h3>". $row['entryTitle'] . "by". $row['submitter'] ."</h3>";
-                        echo "<h5>". $row['category'] . "</h5>";
+                        echo "<h4>". $row['category'] . "</h4>";
                         echo "<p>". $row['entrySummary'] . "</p>";
                     }
                 }else{
@@ -63,7 +63,7 @@
                     $result = mysqli_query($db, $getbugs);
                     while ($row = mysqli_fetch_array($result)) {
                         echo "<h3>". $row['entryTitle'] . "by". $row['submitter'] ."</h3>";
-                        echo "<h5>". $row['category'] . "</h5>";
+                        echo "<h4>". $row['category'] . "</h4>";
                         echo "<p>". $row['entrySummary'] . "</p>";
                  }
              }
