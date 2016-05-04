@@ -38,7 +38,7 @@
                     $getblogs = "SELECT * FROM blogView where category like '%university%'";
                     $result = mysqli_query($db, $getblogs);
                     while ($row = mysqli_fetch_array($result)) {
-                        echo "<h3>". $row['entryTitle'] . "by". $row['submitter'] ."</h3>";
+                        echo "<h3>". $row['entryTitle'] . " by ". $row['submitter'] ."</h3>";
                         echo "<h4>". $row['category'] . "</h4>";
                         echo "<p>". $row['entrySummary'] . "</p>";
                     }
