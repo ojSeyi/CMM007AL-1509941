@@ -8,7 +8,7 @@ header>#title>h1{
     font-size: 40pt;
     margin-bottom: 5px;
 }
-header>#title>h2{
+header>#title>p{
     font-family: 'Montserrat', sans-serif;
     font-size: 30pt;
 }
