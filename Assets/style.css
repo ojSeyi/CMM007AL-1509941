@@ -42,7 +42,12 @@ nav>ul>li>a{
 nav>ul>li>a:hover{
      color: deepskyblue;
 }
-
+#form{
+    margin-top: 60px;
+    padding-left: 240px;
+    padding-right: 240px;
+    margin-bottom: 50px;
+}
 form{
      margin: auto;
 }
