@@ -56,13 +56,14 @@ content>p{
 
 footer{
     padding: 10px;
+    padding-left: 0px;
     border-top: 850px;
     border-top: dotted;
 }
 
 footer>p{
-     max-width: 850px;
-     text-align: center;
-     color: black;
+    max-width: 850px;
+    text-align: left;
+    color: black;
     font-family: 'Montserrat', sans-serif;
 }
