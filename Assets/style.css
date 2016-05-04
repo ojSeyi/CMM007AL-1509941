@@ -43,8 +43,8 @@ nav>ul>li>a:hover{
      color: deepskyblue;
 }
 
-main{
-    min-height: 800px;
+.grid-container{
+    min-height: 600px;
 }
 
 content>p{
