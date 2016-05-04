@@ -53,3 +53,13 @@ content>p{
     margin-right: 15px;
 
 }
+
+footer{
+     padding: 10px;
+}
+
+footer>p{
+     max-width: 850px;
+     text-align: center;
+     color: white;
+}
