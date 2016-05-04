@@ -8,6 +8,10 @@ header>#title>h1{
     font-size: 40pt;
     margin-bottom: 5px;
 }
+header>#title>h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30pt;
+}
 
 nav>ul{
     list-style-type: none;
@@ -37,7 +41,7 @@ nav>ul>li>a:hover{
      color: deepskyblue;
 }
 
-section>p{
+content>p{
     magin-top: 30px;
     margin-right: 10px;
 }
