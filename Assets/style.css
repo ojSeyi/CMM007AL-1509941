@@ -44,7 +44,8 @@ nav>ul>li>a:hover{
 }
 #form{
     margin-top: 60px;
-    margin: auto;
+    padding-left: 235px;
+    padding-right: 235px;
     margin-bottom: 50px;
 }
 form{
@@ -64,9 +65,7 @@ input, textarea {
 select{
     width: 300px;
 }
-label{
-    width:100px;
-}
+
 main{
     min-height: 600px;
 }
