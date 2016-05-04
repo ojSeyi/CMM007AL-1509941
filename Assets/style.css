@@ -65,7 +65,9 @@ input, textarea {
 select{
     width: 300px;
 }
-
+label{
+    width:100px;
+}
 main{
     min-height: 600px;
 }
