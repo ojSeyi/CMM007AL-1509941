@@ -44,8 +44,7 @@ nav>ul>li>a:hover{
 }
 #form{
     margin-top: 60px;
-    padding-left: 235px;
-    padding-right: 235px;
+    margin: auto;
     margin-bottom: 50px;
 }
 form{
