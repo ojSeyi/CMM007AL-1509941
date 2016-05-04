@@ -6,6 +6,7 @@ body{
 header>#title>h1{
     font-family: 'Passion One', cursive;
     font-size: 40pt;
+    margin: 5px;
 }
 
 nav>ul{
